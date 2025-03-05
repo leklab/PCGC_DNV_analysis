@@ -1,7 +1,7 @@
 library(dplyr)
 
 input_file <- './pcgc_dnv_pcgc1_16__n24140_GRCh38.tsv'
-output_file <- './pcgc_dnv_pcgc1_16_n24140_GRCh38_cleanup_AC1.tsv'
+output_file <- './pcgc_dnv_pcgc1_16_n24140_GRCh38_cleanup_AC4.tsv'
 
 dnv <- read.delim(input_file, header = T, fill = T)
 
